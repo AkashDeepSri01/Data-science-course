@@ -1,8 +1,0 @@
-numpy
-matplotlip
-seaborn
-pandas
-plotly
-scipy
-openpyxl
-nbformat
