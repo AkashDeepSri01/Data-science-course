@@ -28,8 +28,6 @@ music.play('remix')
 player = Actor('ironman', (screen_width//2, screen_height//2))
 coin = Actor('coin', (screen_width//2, screen_height-100))
 backgrounds = []
-for i in range(10):
-    backgrounds.append(Actor('bg', (i*config.BG_WIDTH, screen_height//2)))
 
 # use a list comprehension to create the enemy list
 enemies = [Actor('alien', (randint(0, screen_width), randint(0, screen_height))) for i in range(10)]
